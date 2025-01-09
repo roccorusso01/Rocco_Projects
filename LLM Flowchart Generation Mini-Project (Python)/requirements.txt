@@ -1,0 +1,3 @@
+streamlit
+mermaid-py
+python-dotenv
