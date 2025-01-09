@@ -1,0 +1,443 @@
+Academic license - for non-commercial use only - expires 2021-06-20
+Using license file C:\Users\rocco\gurobi.lic
+Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 830 rows, 2480 columns and 7280 nonzeros
+Model fingerprint: 0xbad95ce2
+Coefficient statistics:
+  Matrix range     [5e-02, 1e+00]
+  Objective range  [1e+00, 2e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 221 rows and 302 columns
+Presolve time: 0.02s
+Presolved: 609 rows, 2178 columns, 4120 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   5.800000e+01   0.000000e+00      0s
+     242    4.3189953e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 242 iterations and 0.05 seconds
+Optimal objective  4.318995308e+02
+
+
+
+
+###########################
+#   OBJ VALUE SOLUTION    #
+#         $ 431.9         #
+###########################
+
+
+
+Path of Each Commodity:
+
+Path for Commodity: k1 with Quantity: 0.95 from Source: 18 to Sink: 15)
+Arc (18 -> 19) at Quantity: 0.95 for Price: $2.12
+Arc (19 -> 14) at Quantity: 0.95 for Price: $6.01
+Arc (14 -> 15) at Quantity: 0.95 for Price: $2.12
+
+Path for Commodity: k2 with Quantity: 0.75 from Source: 6 to Sink: 1)
+Arc (6 -> 1) at Quantity: 0.75 for Price: $12.12
+Arc (6 -> 1) at Quantity: 0.75 for Price: $12.12
+
+Path for Commodity: k3 with Quantity: 0.65 from Source: 11 to Sink: 21)
+Arc (11 -> 16) at Quantity: 0.65 for Price: $5.55
+Arc (16 -> 21) at Quantity: 0.65 for Price: $0.65
+
+Path for Commodity: k4 with Quantity: 0.55 from Source: 7 to Sink: 15)
+Arc (7 -> 8) at Quantity: 0.55 for Price: $8.01
+Arc (8 -> 9) at Quantity: 0.55 for Price: $5.44
+Arc (9 -> 14) at Quantity: 0.55 for Price: $1.65
+Arc (14 -> 15) at Quantity: 0.55 for Price: $1.23
+
+Path for Commodity: k5 with Quantity: 0.45 from Source: 4 to Sink: 21)
+Arc (4 -> 9) at Quantity: 0.45 for Price: $7.45
+Arc (9 -> 14) at Quantity: 0.45 for Price: $1.35
+Arc (14 -> 19) at Quantity: 0.45 for Price: $2.85
+Arc (18 -> 23) at Quantity: 0.45 for Price: $1.42
+Arc (19 -> 18) at Quantity: 0.45 for Price: $1.01
+Arc (23 -> 22) at Quantity: 0.45 for Price: $1.42
+Arc (22 -> 21) at Quantity: 0.45 for Price: $0.45
+
+Path for Commodity: k6 with Quantity: 0.7 from Source: 20 to Sink: 10)
+Arc (20 -> 15) at Quantity: 0.7 for Price: $5.64
+Arc (15 -> 10) at Quantity: 0.7 for Price: $2.21
+
+Path for Commodity: k7 with Quantity: 0.2 from Source: 12 to Sink: 10)
+Arc (12 -> 13) at Quantity: 0.2 for Price: $2.53
+Arc (13 -> 14) at Quantity: 0.2 for Price: $1.9
+Arc (14 -> 15) at Quantity: 0.2 for Price: $0.45
+Arc (15 -> 10) at Quantity: 0.2 for Price: $0.63
+
+Path for Commodity: k8 with Quantity: 1.0 from Source: 24 to Sink: 11)
+Arc (24 -> 23) at Quantity: 1.0 for Price: $23.02
+Arc (23 -> 22) at Quantity: 1.0 for Price: $3.16
+Arc (22 -> 21) at Quantity: 1.0 for Price: $1.0
+Arc (21 -> 16) at Quantity: 1.0 for Price: $1.0
+Arc (16 -> 11) at Quantity: 1.0 for Price: $8.54
+
+Path for Commodity: k9 with Quantity: 1.0 from Source: 11 to Sink: 25)
+Arc (11 -> 16) at Quantity: 1.0 for Price: $8.54
+Arc (16 -> 21) at Quantity: 1.0 for Price: $1.0
+Arc (21 -> 22) at Quantity: 1.0 for Price: $1.0
+Arc (22 -> 23) at Quantity: 1.0 for Price: $3.16
+Arc (23 -> 24) at Quantity: 1.0 for Price: $23.02
+Arc (24 -> 25) at Quantity: 1.0 for Price: $2.0
+
+Path for Commodity: k10 with Quantity: 0.7 from Source: 20 to Sink: 21)
+Arc (20 -> 19) at Quantity: 0.7 for Price: $1.4
+Arc (18 -> 23) at Quantity: 0.7 for Price: $2.21
+Arc (19 -> 18) at Quantity: 0.7 for Price: $1.57
+Arc (23 -> 22) at Quantity: 0.7 for Price: $2.21
+Arc (22 -> 21) at Quantity: 0.7 for Price: $0.7
+
+Path for Commodity: k11 with Quantity: 0.3 from Source: 19 to Sink: 12)
+Arc (19 -> 18) at Quantity: 0.3 for Price: $0.67
+Arc (18 -> 17) at Quantity: 0.3 for Price: $1.2
+Arc (17 -> 12) at Quantity: 0.3 for Price: $3.19
+
+Path for Commodity: k12 with Quantity: 0.05 from Source: 14 to Sink: 10)
+Arc (14 -> 15) at Quantity: 0.05 for Price: $0.11
+Arc (15 -> 10) at Quantity: 0.05 for Price: $0.16
+
+Path for Commodity: k13 with Quantity: 0.5 from Source: 18 to Sink: 11)
+Arc (18 -> 17) at Quantity: 0.5 for Price: $2.0
+Arc (17 -> 12) at Quantity: 0.5 for Price: $5.32
+Arc (12 -> 11) at Quantity: 0.5 for Price: $1.0
+
+Path for Commodity: k14 with Quantity: 0.05 from Source: 18 to Sink: 23)
+Arc (18 -> 23) at Quantity: 0.05 for Price: $0.16
+Arc (18 -> 23) at Quantity: 0.05 for Price: $0.16
+
+Path for Commodity: k15 with Quantity: 0.65 from Source: 18 to Sink: 4)
+Arc (18 -> 19) at Quantity: 0.65 for Price: $1.45
+Arc (14 -> 9) at Quantity: 0.65 for Price: $1.95
+Arc (19 -> 14) at Quantity: 0.65 for Price: $4.11
+Arc (9 -> 4) at Quantity: 0.65 for Price: $10.76
+
+Path for Commodity: k16 with Quantity: 0.55 from Source: 10 to Sink: 23)
+Arc (10 -> 15) at Quantity: 0.55 for Price: $1.74
+Arc (14 -> 19) at Quantity: 0.55 for Price: $3.48
+Arc (15 -> 14) at Quantity: 0.55 for Price: $1.23
+Arc (19 -> 18) at Quantity: 0.55 for Price: $1.23
+Arc (18 -> 23) at Quantity: 0.55 for Price: $1.74
+
+Path for Commodity: k17 with Quantity: 0.5 from Source: 6 to Sink: 3)
+Arc (6 -> 7) at Quantity: 0.5 for Price: $6.58
+Arc (7 -> 2) at Quantity: 0.5 for Price: $4.95
+Arc (2 -> 3) at Quantity: 0.5 for Price: $3.54
+
+Path for Commodity: k18 with Quantity: 0.85 from Source: 21 to Sink: 17)
+Arc (21 -> 16) at Quantity: 0.85 for Price: $0.85
+Arc (16 -> 17) at Quantity: 0.85 for Price: $4.33
+
+Path for Commodity: k19 with Quantity: 0.9 from Source: 1 to Sink: 16)
+Arc (1 -> 6) at Quantity: 0.9 for Price: $14.54
+Arc (6 -> 11) at Quantity: 0.9 for Price: $14.23
+Arc (11 -> 16) at Quantity: 0.9 for Price: $7.69
+
+Path for Commodity: k20 with Quantity: 0.35 from Source: 2 to Sink: 18)
+Arc (2 -> 3) at Quantity: 0.35 for Price: $2.47
+Arc (3 -> 8) at Quantity: 0.35 for Price: $2.89
+Arc (8 -> 13) at Quantity: 0.35 for Price: $1.44
+Arc (13 -> 18) at Quantity: 0.35 for Price: $4.76
+
+Path for Commodity: k21 with Quantity: 0.65 from Source: 18 to Sink: 25)
+Arc (18 -> 19) at Quantity: 0.65 for Price: $1.45
+Arc (19 -> 20) at Quantity: 0.65 for Price: $1.3
+Arc (20 -> 25) at Quantity: 0.65 for Price: $13.4
+
+Path for Commodity: k22 with Quantity: 0.45 from Source: 23 to Sink: 16)
+Arc (23 -> 22) at Quantity: 0.45 for Price: $1.42
+Arc (22 -> 21) at Quantity: 0.45 for Price: $0.45
+Arc (21 -> 16) at Quantity: 0.45 for Price: $0.45
+
+Path for Commodity: k23 with Quantity: 0.5 from Source: 9 to Sink: 7)
+Arc (9 -> 8) at Quantity: 0.5 for Price: $4.95
+Arc (8 -> 7) at Quantity: 0.5 for Price: $7.28
+
+Path for Commodity: k24 with Quantity: 0.75 from Source: 23 to Sink: 4)
+Arc (23 -> 18) at Quantity: 0.75 for Price: $2.37
+Arc (14 -> 9) at Quantity: 0.75 for Price: $2.25
+Arc (18 -> 19) at Quantity: 0.75 for Price: $1.68
+Arc (19 -> 14) at Quantity: 0.75 for Price: $4.74
+Arc (9 -> 4) at Quantity: 0.75 for Price: $12.41
+
+Path for Commodity: k25 with Quantity: 0.6 from Source: 2 to Sink: 21)
+Arc (2 -> 7) at Quantity: 0.6 for Price: $5.94
+Arc (7 -> 12) at Quantity: 0.6 for Price: $10.82
+Arc (11 -> 16) at Quantity: 0.6 for Price: $5.13
+Arc (12 -> 11) at Quantity: 0.6 for Price: $1.2
+Arc (16 -> 21) at Quantity: 0.6 for Price: $0.6
+
+Path for Commodity: k26 with Quantity: 0.5 from Source: 20 to Sink: 24)
+Arc (20 -> 19) at Quantity: 0.5 for Price: $1.0
+Arc (19 -> 24) at Quantity: 0.5 for Price: $10.31
+
+Path for Commodity: k27 with Quantity: 0.35 from Source: 18 to Sink: 3)
+Arc (18 -> 13) at Quantity: 0.35 for Price: $4.76
+Arc (13 -> 8) at Quantity: 0.35 for Price: $1.44
+Arc (8 -> 3) at Quantity: 0.35 for Price: $2.89
+
+Path for Commodity: k28 with Quantity: 1.0 from Source: 12 to Sink: 8)
+Arc (12 -> 13) at Quantity: 1.0 for Price: $12.65
+Arc (13 -> 8) at Quantity: 1.0 for Price: $4.12
+
+Path for Commodity: k29 with Quantity: 0.85 from Source: 15 to Sink: 3)
+Arc (15 -> 14) at Quantity: 0.85 for Price: $1.9
+Arc (9 -> 8) at Quantity: 0.85 for Price: $8.41
+Arc (14 -> 9) at Quantity: 0.85 for Price: $2.55
+Arc (8 -> 3) at Quantity: 0.85 for Price: $7.01
+
+Path for Commodity: k30 with Quantity: 0.85 from Source: 6 to Sink: 19)
+Arc (6 -> 11) at Quantity: 0.85 for Price: $13.44
+Arc (11 -> 12) at Quantity: 0.85 for Price: $1.7
+Arc (12 -> 17) at Quantity: 0.85 for Price: $9.04
+Arc (17 -> 18) at Quantity: 0.85 for Price: $3.4
+Arc (18 -> 19) at Quantity: 0.85 for Price: $1.9
+
+
+Number of Trucks on Each Arc:
+
+Arc (1->2) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (1->6) has 0.9 trucks carrying 1 commodities with a total weight of 0.9.
+This arc carries the following commodities:  k19
+
+Arc (2->1) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (2->3) has 0.85 trucks carrying 2 commodities with a total weight of 0.85.
+This arc carries the following commodities:  k17, k20
+
+Arc (2->7) has 0.6 trucks carrying 1 commodities with a total weight of 0.6.
+This arc carries the following commodities:  k25
+
+Arc (3->2) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (3->4) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (3->8) has 0.35 trucks carrying 1 commodities with a total weight of 0.35.
+This arc carries the following commodities:  k20
+
+Arc (4->3) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (4->5) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (4->9) has 0.45 trucks carrying 1 commodities with a total weight of 0.45.
+This arc carries the following commodities:  k5
+
+Arc (5->4) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (5->10) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (6->1) has 0.75 trucks carrying 1 commodities with a total weight of 0.75.
+This arc carries the following commodities:  k2
+
+Arc (6->7) has 0.5 trucks carrying 1 commodities with a total weight of 0.5.
+This arc carries the following commodities:  k17
+
+Arc (6->11) has 1.75 trucks carrying 2 commodities with a total weight of 1.75.
+This arc carries the following commodities:  k19, k30
+
+Arc (7->2) has 0.5 trucks carrying 1 commodities with a total weight of 0.5.
+This arc carries the following commodities:  k17
+
+Arc (7->6) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (7->8) has 0.55 trucks carrying 1 commodities with a total weight of 0.55.
+This arc carries the following commodities:  k4
+
+Arc (7->12) has 0.6 trucks carrying 1 commodities with a total weight of 0.6.
+This arc carries the following commodities:  k25
+
+Arc (8->3) has 1.2 trucks carrying 2 commodities with a total weight of 1.2.
+This arc carries the following commodities:  k27, k29
+
+Arc (8->7) has 0.5 trucks carrying 1 commodities with a total weight of 0.5.
+This arc carries the following commodities:  k23
+
+Arc (8->9) has 0.55 trucks carrying 1 commodities with a total weight of 0.55.
+This arc carries the following commodities:  k4
+
+Arc (8->13) has 0.35 trucks carrying 1 commodities with a total weight of 0.35.
+This arc carries the following commodities:  k20
+
+Arc (9->4) has 1.4 trucks carrying 2 commodities with a total weight of 1.4.
+This arc carries the following commodities:  k15, k24
+
+Arc (9->8) has 1.35 trucks carrying 2 commodities with a total weight of 1.35.
+This arc carries the following commodities:  k23, k29
+
+Arc (9->10) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (9->14) has 1.0 trucks carrying 2 commodities with a total weight of 1.0.
+This arc carries the following commodities:  k4, k5
+
+Arc (10->5) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (10->9) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (10->15) has 0.55 trucks carrying 1 commodities with a total weight of 0.55.
+This arc carries the following commodities:  k16
+
+Arc (11->6) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (11->12) has 0.85 trucks carrying 1 commodities with a total weight of 0.85.
+This arc carries the following commodities:  k30
+
+Arc (11->16) has 3.15 trucks carrying 4 commodities with a total weight of 3.15.
+This arc carries the following commodities:  k3, k9, k19, k25
+
+Arc (12->7) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (12->11) has 1.1 trucks carrying 2 commodities with a total weight of 1.1.
+This arc carries the following commodities:  k13, k25
+
+Arc (12->13) has 1.2 trucks carrying 2 commodities with a total weight of 1.2.
+This arc carries the following commodities:  k7, k28
+
+Arc (12->17) has 0.85 trucks carrying 1 commodities with a total weight of 0.85.
+This arc carries the following commodities:  k30
+
+Arc (13->8) has 1.35 trucks carrying 2 commodities with a total weight of 1.35.
+This arc carries the following commodities:  k27, k28
+
+Arc (13->12) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (13->14) has 0.2 trucks carrying 1 commodities with a total weight of 0.2.
+This arc carries the following commodities:  k7
+
+Arc (13->18) has 0.35 trucks carrying 1 commodities with a total weight of 0.35.
+This arc carries the following commodities:  k20
+
+Arc (14->9) has 2.25 trucks carrying 3 commodities with a total weight of 2.25.
+This arc carries the following commodities:  k15, k24, k29
+
+Arc (14->13) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (14->15) has 1.75 trucks carrying 4 commodities with a total weight of 1.75.
+This arc carries the following commodities:  k1, k4, k7, k12
+
+Arc (14->19) has 1.0 trucks carrying 2 commodities with a total weight of 1.0.
+This arc carries the following commodities:  k5, k16
+
+Arc (15->10) has 0.95 trucks carrying 3 commodities with a total weight of 0.95.
+This arc carries the following commodities:  k6, k7, k12
+
+Arc (15->14) has 1.4 trucks carrying 2 commodities with a total weight of 1.4.
+This arc carries the following commodities:  k16, k29
+
+Arc (15->20) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (16->11) has 1.0 trucks carrying 1 commodities with a total weight of 1.0.
+This arc carries the following commodities:  k8
+
+Arc (16->17) has 0.85 trucks carrying 1 commodities with a total weight of 0.85.
+This arc carries the following commodities:  k18
+
+Arc (16->21) has 2.25 trucks carrying 3 commodities with a total weight of 2.25.
+This arc carries the following commodities:  k3, k9, k25
+
+Arc (17->12) has 0.8 trucks carrying 2 commodities with a total weight of 0.8.
+This arc carries the following commodities:  k11, k13
+
+Arc (17->16) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (17->18) has 0.85 trucks carrying 1 commodities with a total weight of 0.85.
+This arc carries the following commodities:  k30
+
+Arc (17->22) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (18->13) has 0.35 trucks carrying 1 commodities with a total weight of 0.35.
+This arc carries the following commodities:  k27
+
+Arc (18->17) has 0.8 trucks carrying 2 commodities with a total weight of 0.8.
+This arc carries the following commodities:  k11, k13
+
+Arc (18->19) has 3.85 trucks carrying 5 commodities with a total weight of 3.85.
+This arc carries the following commodities:  k1, k15, k21, k24, k30
+
+Arc (18->23) has 1.75 trucks carrying 4 commodities with a total weight of 1.75.
+This arc carries the following commodities:  k5, k10, k14, k16
+
+Arc (19->14) has 2.35 trucks carrying 3 commodities with a total weight of 2.35.
+This arc carries the following commodities:  k1, k15, k24
+
+Arc (19->18) has 2.0 trucks carrying 4 commodities with a total weight of 2.0.
+This arc carries the following commodities:  k5, k10, k11, k16
+
+Arc (19->20) has 0.65 trucks carrying 1 commodities with a total weight of 0.65.
+This arc carries the following commodities:  k21
+
+Arc (19->24) has 0.5 trucks carrying 1 commodities with a total weight of 0.5.
+This arc carries the following commodities:  k26
+
+Arc (20->15) has 0.7 trucks carrying 1 commodities with a total weight of 0.7.
+This arc carries the following commodities:  k6
+
+Arc (20->19) has 1.2 trucks carrying 2 commodities with a total weight of 1.2.
+This arc carries the following commodities:  k10, k26
+
+Arc (20->25) has 0.65 trucks carrying 1 commodities with a total weight of 0.65.
+This arc carries the following commodities:  k21
+
+Arc (21->16) has 2.3 trucks carrying 3 commodities with a total weight of 2.3.
+This arc carries the following commodities:  k8, k18, k22
+
+Arc (21->22) has 1.0 trucks carrying 1 commodities with a total weight of 1.0.
+This arc carries the following commodities:  k9
+
+Arc (22->17) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (22->21) has 2.6 trucks carrying 4 commodities with a total weight of 2.6.
+This arc carries the following commodities:  k5, k8, k10, k22
+
+Arc (22->23) has 1.0 trucks carrying 1 commodities with a total weight of 1.0.
+This arc carries the following commodities:  k9
+
+Arc (23->18) has 0.75 trucks carrying 1 commodities with a total weight of 0.75.
+This arc carries the following commodities:  k24
+
+Arc (23->22) has 2.6 trucks carrying 4 commodities with a total weight of 2.6.
+This arc carries the following commodities:  k5, k8, k10, k22
+
+Arc (23->24) has 1.0 trucks carrying 1 commodities with a total weight of 1.0.
+This arc carries the following commodities:  k9
+
+Arc (24->19) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (24->23) has 1.0 trucks carrying 1 commodities with a total weight of 1.0.
+This arc carries the following commodities:  k8
+
+Arc (24->25) has 1.0 trucks carrying 1 commodities with a total weight of 1.0.
+This arc carries the following commodities:  k9
+
+Arc (25->20) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Arc (25->24) has 0.0 trucks carrying 0 commodities with a total weight of 0.
+This arc carries the following commodities:
+
+Gurobi Runtime: 0:00:00.065382
