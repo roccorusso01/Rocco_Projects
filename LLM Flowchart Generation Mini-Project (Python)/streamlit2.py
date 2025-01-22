@@ -46,7 +46,7 @@ def main():
         load_dotenv(dotenv_path='.env')
         
         #Use the api_key and the model selected by the user to instantiate the LLM
-        api_key="5d21fa8dfdc842d7bacb24a6946495be"
+        api_key="was_hardcoded_for_testing"
         model = model_selection
         client = GenAICenterLLM(model, api_key)
         #client = OpenAI(api_key=openai_api_key)
